@@ -29,7 +29,7 @@ void main() {
         'when no argument specified',
         () {
           const {{feature_name.camelCase()}}State = {{feature_name.pascalCase()}}State(
-            customProperty: 'My property',
+            data: 'My property',
           );
           expect(
             {{feature_name.camelCase()}}State.copyWith(),
@@ -43,16 +43,16 @@ void main() {
         'when all arguments specified',
         () {
           const {{feature_name.camelCase()}}State = {{feature_name.pascalCase()}}State(
-            customProperty: 'My property',
+            data: 'My property',
           );
           final other{{feature_name.pascalCase()}}State = {{feature_name.pascalCase()}}State(
-            customProperty: 'My property 2',
+            data: 'My property 2',
           );
           expect({{feature_name.camelCase()}}State, isNot(equals(other{{feature_name.pascalCase()}}State)));
 
           expect(
             {{feature_name.camelCase()}}State.copyWith(
-              customProperty: other{{feature_name.pascalCase()}}State.customProperty,
+              data: other{{feature_name.pascalCase()}}State.data,
             ),
             equals(other{{feature_name.pascalCase()}}State),
           );

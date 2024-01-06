@@ -15,15 +15,15 @@ void main() {
       });
     });
 
-    test('initial state has default value for customProperty', () {
+    test('initial state has default value for data', () {
       final {{feature_name.camelCase()}}Cubit = {{feature_name.pascalCase()}}Cubit();
-      expect({{feature_name.camelCase()}}Cubit.state.customProperty, equals('Default Value'));
+      expect({{feature_name.camelCase()}}Cubit.state.data, equals(null));
     });
 
     blocTest<{{feature_name.pascalCase()}}Cubit, {{feature_name.pascalCase()}}State>(
-      'yourCustomFunction emits nothing',
+      'method emits nothing',
       build: {{feature_name.pascalCase()}}Cubit.new,
-      act: (cubit) => cubit.yourCustomFunction(),
+      act: (cubit) => cubit.method(),
       expect: () => <{{feature_name.pascalCase()}}State>[],
     );
   });
