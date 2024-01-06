@@ -4,7 +4,7 @@ import 'package:{{{fullPath}}}/cubit/cubit.dart';{{/isCubit}}{{#isProvider}}
 import 'package:{{{fullPath}}}/provider/provider.dart';{{/isProvider}}{{#isRiverpod}}
 import 'package:{{{fullPath}}}/provider/provider.dart';{{/isRiverpod}}
 
-/// Body of the {{feature_name.pascalCase()}}Page.
+/// Body of the {{feature_name.pascalCase()}}Screen.
 ///
 /// Add what it does
 class {{feature_name.pascalCase()}}Body {{#isBloc}}extends StatelessWidget{{/isBloc}}{{#isCubit}}extends StatelessWidget{{/isCubit}}{{#isProvider}}extends StatelessWidget{{/isProvider}}{{#isNone}}extends StatelessWidget{{/isNone}}{{#isRiverpod}}extends ConsumerWidget{{/isRiverpod}} {
@@ -41,6 +41,6 @@ class {{feature_name.pascalCase()}}Body {{#isBloc}}extends StatelessWidget{{/isB
   }{{/isRiverpod}}{{#isNone}}
   @override
   Widget build(BuildContext context) {
-    return const Center(child:Text('{{feature_name.pascalCase()}}Page'));
+    return const Center(child:Text('{{feature_name.pascalCase()}}Screen'));
   }{{/isNone}}
 }

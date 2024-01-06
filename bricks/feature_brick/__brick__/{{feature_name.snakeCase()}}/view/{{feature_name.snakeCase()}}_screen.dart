@@ -7,8 +7,8 @@ import 'package:auto_route/auto_route.dart';
 
 /// A description for {{feature_name.pascalCase()}}Page
 @RoutePage()
-class {{feature_name.pascalCase()}}Page extends StatelessWidget {
-  const {{feature_name.pascalCase()}}Page({super.key});
+class {{feature_name.pascalCase()}}Screen extends StatelessWidget {
+  const {{feature_name.pascalCase()}}Screen({super.key});
 
 
 {{#isBloc}}
