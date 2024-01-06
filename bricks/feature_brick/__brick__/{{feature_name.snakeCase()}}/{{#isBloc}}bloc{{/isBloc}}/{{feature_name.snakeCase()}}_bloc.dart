@@ -1,5 +1,4 @@
 import 'dart:async';
-
 import 'package:bloc/bloc.dart';{{#use_equatable}}
 import 'package:equatable/equatable.dart';{{/use_equatable}}
 part '{{feature_name.snakeCase()}}_event.dart';
