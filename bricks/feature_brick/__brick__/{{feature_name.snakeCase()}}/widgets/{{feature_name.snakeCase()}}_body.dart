@@ -22,7 +22,7 @@ class {{feature_name.pascalCase()}}Body {{#isBloc}}extends StatelessWidget{{/isB
   Widget build(BuildContext context) {
     return BlocBuilder<{{feature_name.pascalCase()}}Cubit, {{feature_name.pascalCase()}}State>(
       builder: (context, state) {
-        return Center(child: Text(state.customProperty));
+        return Center(child: Text(state.data));
       },
     );
   }{{/isCubit}}{{#isProvider}}
