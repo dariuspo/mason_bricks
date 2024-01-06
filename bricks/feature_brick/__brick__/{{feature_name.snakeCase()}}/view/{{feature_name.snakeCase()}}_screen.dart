@@ -3,18 +3,14 @@ import 'package:{{{fullPath}}}/bloc/bloc.dart';{{/isBloc}}{{#isCubit}}
 import 'package:{{{fullPath}}}/cubit/cubit.dart';{{/isCubit}}{{#isProvider}}
 import 'package:{{{fullPath}}}/provider/provider.dart';{{/isProvider}}
 import 'package:{{{fullPath}}}/widgets/{{feature_name.snakeCase()}}_body.dart';
+import 'package:auto_route/auto_route.dart';
 
-/// {@template {{feature_name.snakeCase()}}_page}
 /// A description for {{feature_name.pascalCase()}}Page
-/// {@endtemplate}
+@RoutePage()
 class {{feature_name.pascalCase()}}Page extends StatelessWidget {
-  /// {@macro {{feature_name.snakeCase()}}_page}
   const {{feature_name.pascalCase()}}Page({super.key});
 
-  /// The static route for {{feature_name.pascalCase()}}Page
-  static Route<dynamic> route() {
-    return MaterialPageRoute<dynamic>(builder: (_) => const {{feature_name.pascalCase()}}Page());
-  }
+
 {{#isBloc}}
   @override
   Widget build(BuildContext context) {
@@ -57,11 +53,8 @@ class {{feature_name.pascalCase()}}Page extends StatelessWidget {
   } {{/isNone}}
 }
 
-/// {@template {{feature_name.snakeCase()}}_view}
 /// Displays the Body of {{feature_name.pascalCase()}}View
-/// {@endtemplate}
 class {{feature_name.pascalCase()}}View extends StatelessWidget {
-  /// {@macro {{feature_name.snakeCase()}}_view}
   const {{feature_name.pascalCase()}}View({super.key});
 
   @override

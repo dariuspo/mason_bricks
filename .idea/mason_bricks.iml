@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/examples/app_ui/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/examples/app_ui/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/examples/app_ui/build" />
+      <excludeFolder url="file://$MODULE_DIR$/bricks/analyzer/hooks/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/bricks/analyzer/hooks/build" />
+      <excludeFolder url="file://$MODULE_DIR$/bricks/analyzer/hooks/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/bricks/app_ui/__brick__/app_ui/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/bricks/app_ui/__brick__/app_ui/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/bricks/app_ui/__brick__/app_ui/build" />
+      <excludeFolder url="file://$MODULE_DIR$/examples/service_package/authentication_service/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/examples/service_package/authentication_service/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/examples/service_package/authentication_service/build" />
+      <excludeFolder url="file://$MODULE_DIR$/bricks/feature_brick/hooks/build" />
+      <excludeFolder url="file://$MODULE_DIR$/bricks/feature_brick/hooks/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/bricks/feature_brick/hooks/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/bricks/models_bundle/hooks/build" />
+      <excludeFolder url="file://$MODULE_DIR$/bricks/models_bundle/hooks/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/bricks/models_bundle/hooks/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/bricks/service/hooks/build" />
+      <excludeFolder url="file://$MODULE_DIR$/bricks/service/hooks/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/bricks/service/hooks/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/bricks/feature_brick_tests/hooks/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/bricks/feature_brick_tests/hooks/build" />
+      <excludeFolder url="file://$MODULE_DIR$/bricks/feature_brick_tests/hooks/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/bricks/service_package/hooks/build" />
+      <excludeFolder url="file://$MODULE_DIR$/bricks/service_package/hooks/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/bricks/service_package/hooks/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/bricks/model/hooks/build" />
+      <excludeFolder url="file://$MODULE_DIR$/bricks/model/hooks/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/bricks/model/hooks/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/bricks/service_package/__brick__/{{package_name.snakeCase()}}/build" />
+      <excludeFolder url="file://$MODULE_DIR$/bricks/service_package/__brick__/{{package_name.snakeCase()}}/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/bricks/service_package/__brick__/{{package_name.snakeCase()}}/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/bricks/analyzer/__brick__/tools/analyzer_plugin/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/bricks/analyzer/__brick__/tools/analyzer_plugin/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/bricks/analyzer/__brick__/tools/analyzer_plugin/build" />
+      <excludeFolder url="file://$MODULE_DIR$/bricks/analyzer/__brick__/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/bricks/analyzer/__brick__/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/bricks/analyzer/__brick__/build" />
+      <excludeFolder url="file://$MODULE_DIR$/bricks/app_ui/hooks/build" />
+      <excludeFolder url="file://$MODULE_DIR$/bricks/app_ui/hooks/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/bricks/app_ui/hooks/.dart_tool" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
