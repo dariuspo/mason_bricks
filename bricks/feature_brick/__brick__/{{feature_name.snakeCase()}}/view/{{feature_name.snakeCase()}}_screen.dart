@@ -5,10 +5,10 @@ import 'package:{{{fullPath}}}/provider/provider.dart';{{/isProvider}}
 import 'package:{{{fullPath}}}/widgets/{{feature_name.snakeCase()}}_body.dart';
 import 'package:auto_route/auto_route.dart';
 
-/// A description for {{feature_name.pascalCase()}}Page
+/// A description for {{feature_name.pascalCase()}}Screen
 @RoutePage()
-class {{feature_name.pascalCase()}}Page extends StatelessWidget {
-  const {{feature_name.pascalCase()}}Page({super.key});
+class {{feature_name.pascalCase()}}Screen extends StatelessWidget {
+  const {{feature_name.pascalCase()}}Screen({super.key});
 
 
 {{#isBloc}}
