@@ -1,6 +1,6 @@
 import 'dart:async';
-import 'package:{{{fullPath}}}/app/helpers/utils/error_utils.dart';
-import 'package:{{{fullPath}}}/app/helpers/bloc_helper.dart';
+import 'package:bsn/app/helpers/utils/error_utils.dart';
+import 'package:bsn/app/helpers/bloc_helper.dart';
 import 'package:copy_with_extension/copy_with_extension.dart';
 import 'package:flutter/material.dart';
 import 'package:bloc/bloc.dart';{{#use_equatable}}

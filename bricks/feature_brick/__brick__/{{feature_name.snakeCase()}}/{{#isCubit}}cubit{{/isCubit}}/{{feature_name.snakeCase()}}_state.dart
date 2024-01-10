@@ -7,13 +7,13 @@ class {{feature_name.pascalCase()}}State{{#use_equatable}} extends Equatable{{/u
   const {{feature_name.pascalCase()}}State({
     this.blocState = BlocState.initial,
     this.message = '',
-    this.data,
+    this.data = '',
   });
 
   /// A description for customProperty
 final BlocState blocState;
 final String message;
-final String? data;
+final String data;
 {{#use_equatable}}
   @override
   List<Object?> get props => [blocState, message, data];
